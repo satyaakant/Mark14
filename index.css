@@ -1,0 +1,54 @@
+input{
+    padding: 25px;
+    border-radius: 5px;
+    font-size: smaller;
+    padding-left: 2px;
+    width: 240px;
+    border: 1px solid var(--primary-color);
+}
+div{
+    padding: 30px;
+}
+*{
+    text-align: center;
+    align-items: center;
+   margin: 0%;
+   margin-bottom: 0%;
+    color: var(--primary-color);
+}
+main{
+    background-color: var(--secondry-color);
+}
+    :root{
+        --primary-color:#ed7318;
+        --secondry-color:#040d30;
+    }
+
+    .footer{
+        background-color:var(--primary-color);
+        padding:1rem 1rem;
+        border-top-left-radius: 0.5rem;
+        text-align: center;
+        color: #ffffff;
+        
+       
+    }
+    .footer .link{
+        color: white;
+    }
+    .inline-list{
+        display: inline;
+     
+    }
+    .git{
+        width: 40px;
+        border-radius: 31px;
+        padding: 10px;
+    }
+    
+    button{
+        background-color: var(--secondry-color);
+        border: 1px solid var(--primary-color);
+        border-radius: 5px;
+        padding: 5px;
+    }
