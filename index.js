@@ -27,7 +27,7 @@ function clickhandler(){
     var ip =  Number( inputini.value);
     var qty=  Number( inputqua.value);
     var curr =Number( inputou.value);
-    if(ip==0){
+    if(ip<=0){
         outputel.innerText=`Entering number is least that we asked you to do:( `;
     }
     else{
