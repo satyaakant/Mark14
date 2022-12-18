@@ -14,7 +14,7 @@ div{
     align-items: center;
    margin: 0%;
    margin-bottom: 0%;
-    color: var(--primary-color);
+    
 }
 main{
     background-color: var(--secondry-color);
@@ -31,14 +31,14 @@ main{
         text-align: center;
         bottom: 0;
         align-items: center;
-        color: #ffffff;
-       position: fixed;
+        color: rgb(255, 255, 255);
        width: 100%;
        
     }
     .footer .link{
         color: white;
     }
+
     .inline-list{
         display: inline;
      
@@ -54,7 +54,11 @@ main{
         border: 1px solid var(--primary-color);
         border-radius: 5px;
         padding: 5px;
+        color: var(--primary-color);
     }
     body{
         background-color: var(--secondry-color);
+    }
+    h1{
+        color:var(--primary-color);
     }
