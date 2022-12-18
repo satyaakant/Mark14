@@ -62,3 +62,6 @@ main{
     h1{
         color:var(--primary-color);
     }
+    #output{
+        color: var(--primary-color);
+    }
